@@ -1,0 +1,138 @@
+*,
+::after,
+::before{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', 'sans-serif';
+    color: black;
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background: linear-gradient(rgb(237, 164, 24),rgba(237, 164, 24, 0));
+    padding-right: 130px;
+    padding-left: 217px;
+    padding-top: 115px;
+    padding-bottom: 100px;
+}
+
+nav{
+    padding-top: 11px;
+    margin-bottom: 23px;
+}
+
+.nav_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding-top: 17px;
+    margin-right: 0px;
+}
+
+.nav_menu_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.nav_menu_button:active { 
+    transform: scale(0.98); 
+    /* Scaling button to 0.98 to its original size */ 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    /* Lowering the shadow */ 
+}
+
+.nav_menu_link{
+    margin-right: 100px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500
+}
+
+.nav_menu_link#link1{
+    font-weight: 700;
+}
+
+.nav_menu_link:hover{
+    color: #fff;
+}
+
+.header_inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.hero_list-title{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    padding-bottom: 29px;
+}
+.hero_list-text{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    padding-bottom: 29px;
+}
+
+.hero_list-button{
+    background-color: #E62626;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    border-radius: 50px;
+    color: #fff;
+    height: 60px;
+    width: 142px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px #E62626;
+    transition: 0.2s ease;
+}
+
+.hero_list-button:hover{
+    height: 90px;
+    width: 170px;
+}
+
+.hero_list-button:active { 
+    transform: scale(0.98); 
+    /* Scaling button to 0.98 to its original size */ 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    /* Lowering the shadow */ 
+}
+.nav_menu_list {
+    display: flex;
+    align-items: center; /* Вертикально выравнивает все элементы по центру контейнера */
+    justify-content: center; /* Центрирует элементы внутри списка */
+    margin-right: 60px;
+}
